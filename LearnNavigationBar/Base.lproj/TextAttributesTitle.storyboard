@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="IuL-5Z-6xX">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--诡异的navbar-->
+        <scene sceneID="gvy-KG-HYG">
+            <objects>
+                <viewController id="1md-yf-Zyc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yHz-Q9-nzu"/>
+                        <viewControllerLayoutGuide type="bottom" id="4ZM-B7-Rwh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9vF-yi-mkq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="诡异的navbar" prompt="" id="29D-DN-esR">
+                        <barButtonItem key="leftBarButtonItem" systemItem="stop" id="scI-E2-aJE">
+                            <connections>
+                                <action selector="dismiss:" destination="1md-yf-Zyc" id="rhi-u7-C5r"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MFR-OQ-Jva" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2635" y="3830"/>
+        </scene>
+        <!--Title-->
+        <scene sceneID="iUs-b6-zT4">
+            <objects>
+                <navigationController id="IuL-5Z-6xX" customClass="TextAttributesTitleNavController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Title" id="yX5-Wv-jZA"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="VFb-Sw-LMD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="PGd-LI-MZB" kind="relationship" relationship="rootViewController" id="kKo-Bq-nXe"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9IM-Ox-Kwu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1894" y="3158"/>
+        </scene>
+        <!--Title-->
+        <scene sceneID="dz1-5c-niP">
+            <objects>
+                <viewController id="PGd-LI-MZB" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3xU-ro-f6w"/>
+                        <viewControllerLayoutGuide type="bottom" id="BKf-Wa-D3Z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hZF-o2-epw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="mli-vv-sPY">
+                        <barButtonItem key="leftBarButtonItem" systemItem="stop" id="nTf-io-W8Q">
+                            <connections>
+                                <action selector="dismiss:" destination="PGd-LI-MZB" id="EQF-VG-MjS"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TAx-H5-cgY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2635" y="3158"/>
+        </scene>
+    </scenes>
+</document>

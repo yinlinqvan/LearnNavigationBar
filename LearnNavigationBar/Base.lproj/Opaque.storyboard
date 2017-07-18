@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="KeP-Zk-8Wg">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Title-->
+        <scene sceneID="gvy-KG-HYG">
+            <objects>
+                <viewController id="1md-yf-Zyc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yHz-Q9-nzu"/>
+                        <viewControllerLayoutGuide type="bottom" id="4ZM-B7-Rwh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9vF-yi-mkq">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="29D-DN-esR">
+                        <barButtonItem key="leftBarButtonItem" systemItem="stop" id="scI-E2-aJE">
+                            <connections>
+                                <action selector="dismiss:" destination="1md-yf-Zyc" id="rhi-u7-C5r"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MFR-OQ-Jva" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2678" y="1492"/>
+        </scene>
+        <!--Opaque-->
+        <scene sceneID="6ZE-9G-2N5">
+            <objects>
+                <navigationController id="KeP-Zk-8Wg" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Opaque" id="zBl-52-har"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="WyH-He-6vB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="1md-yf-Zyc" kind="relationship" relationship="rootViewController" id="QGP-4P-7J3"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Ug-qp-Uhn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1956" y="1476"/>
+        </scene>
+    </scenes>
+</document>
