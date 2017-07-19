@@ -1,8 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="KeP-Zk-8Wg">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="KeP-Zk-8Wg">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Title-->
@@ -14,9 +18,19 @@
                         <viewControllerLayoutGuide type="bottom" id="4ZM-B7-Rwh"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="9vF-yi-mkq">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="top_bg" translatesAutoresizingMaskIntoConstraints="NO" id="1op-A4-GzY">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="245"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="1op-A4-GzY" firstAttribute="leading" secondItem="9vF-yi-mkq" secondAttribute="leading" id="359-bQ-PlH"/>
+                            <constraint firstAttribute="trailing" secondItem="1op-A4-GzY" secondAttribute="trailing" id="QHZ-qK-0JU"/>
+                            <constraint firstItem="1op-A4-GzY" firstAttribute="top" secondItem="yHz-Q9-nzu" secondAttribute="bottom" constant="-64" id="hpZ-AH-hXJ"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="29D-DN-esR">
                         <barButtonItem key="leftBarButtonItem" systemItem="stop" id="scI-E2-aJE">
@@ -28,7 +42,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MFR-OQ-Jva" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2678" y="1492"/>
+            <point key="canvasLocation" x="2676" y="1476"/>
         </scene>
         <!--Opaque-->
         <scene sceneID="6ZE-9G-2N5">
@@ -41,7 +55,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="1md-yf-Zyc" kind="relationship" relationship="rootViewController" id="QGP-4P-7J3"/>
+                        <segue destination="1md-yf-Zyc" kind="relationship" relationship="rootViewController" id="8jO-lm-FGU"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Ug-qp-Uhn" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -49,4 +63,7 @@
             <point key="canvasLocation" x="1956" y="1476"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="top_bg" width="375" height="245"/>
+    </resources>
 </document>

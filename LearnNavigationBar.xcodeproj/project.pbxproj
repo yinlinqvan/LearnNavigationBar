@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F24BEFD1F1E0E8100B57734 /* TranslucentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F24BEFC1F1E0E8100B57734 /* TranslucentViewController.m */; };
 		3F489B701D15AAA40089F835 /* Default.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F489B6F1D15AAA40089F835 /* Default.storyboard */; };
 		3F489B731D15AAE90089F835 /* Black.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F489B711D15AAE90089F835 /* Black.storyboard */; };
 		3F489B751D15AB280089F835 /* Translucent.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F489B741D15AB280089F835 /* Translucent.storyboard */; };
@@ -46,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F24BEFB1F1E0E8100B57734 /* TranslucentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranslucentViewController.h; sourceTree = "<group>"; };
+		3F24BEFC1F1E0E8100B57734 /* TranslucentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranslucentViewController.m; sourceTree = "<group>"; };
 		3F489B6F1D15AAA40089F835 /* Default.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Default.storyboard; sourceTree = "<group>"; };
 		3F489B721D15AAE90089F835 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Black.storyboard; sourceTree = "<group>"; };
 		3F489B741D15AB280089F835 /* Translucent.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Translucent.storyboard; sourceTree = "<group>"; };
@@ -128,14 +131,16 @@
 				3FC2CC271D0B1E52006055FB /* AppDelegate.m */,
 				3FC2CC291D0B1E52006055FB /* ViewController.h */,
 				3FC2CC2A1D0B1E52006055FB /* ViewController.m */,
+				3F489B8E1D161D750089F835 /* TextAttributesTitleNavController.h */,
+				3F489B8F1D161D750089F835 /* TextAttributesTitleNavController.m */,
+				3F24BEFB1F1E0E8100B57734 /* TranslucentViewController.h */,
+				3F24BEFC1F1E0E8100B57734 /* TranslucentViewController.m */,
 				3FC2CC2C1D0B1E52006055FB /* Main.storyboard */,
 				3F489B831D1615280089F835 /* Demo.storyboard */,
 				3F489B801D16143F0089F835 /* Custom.storyboard */,
 				3F489B7E1D16138C0089F835 /* System.storyboard */,
 				3F489B7B1D15ABCA0089F835 /* Title.storyboard */,
 				3F489B881D16191A0089F835 /* TextAttributesTitle.storyboard */,
-				3F489B8E1D161D750089F835 /* TextAttributesTitleNavController.h */,
-				3F489B8F1D161D750089F835 /* TextAttributesTitleNavController.m */,
 				3F489B791D15ABA10089F835 /* Tint.storyboard */,
 				3F489B761D15AB4E0089F835 /* Opaque.storyboard */,
 				3F489B741D15AB280089F835 /* Translucent.storyboard */,
@@ -320,6 +325,7 @@
 			files = (
 				3FC2CC2B1D0B1E52006055FB /* ViewController.m in Sources */,
 				3FC2CC281D0B1E52006055FB /* AppDelegate.m in Sources */,
+				3F24BEFD1F1E0E8100B57734 /* TranslucentViewController.m in Sources */,
 				3F489B901D161D750089F835 /* TextAttributesTitleNavController.m in Sources */,
 				3FC2CC251D0B1E52006055FB /* main.m in Sources */,
 			);

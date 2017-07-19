@@ -15,7 +15,7 @@
                 <navigationController id="Zov-VY-lUf" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Demo" id="iFb-q4-97V"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="WHe-fd-iuv">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="WHe-fd-iuv">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

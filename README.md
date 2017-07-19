@@ -1,7 +1,8 @@
 #LearnNavigationBar
 自定义导航栏
 
-![效果图](./gif.gif)
+![Custom效果图](./gif2.gif)
+![Systom效果图](./gif.gif)
 
 # Contact me
 - 简书: [印林泉](http://www.jianshu.com/u/2af3405e4c97)

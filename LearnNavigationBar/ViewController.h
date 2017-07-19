@@ -8,8 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@implementation CALayer (Additions)
+- (void)setBorderColorFromUIColor:(UIColor *)color
+{
+    self.borderColor = color.CGColor;
+}
+@end
 
+@interface ViewController : UIViewController
 
 @end
 
